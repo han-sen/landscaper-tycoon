@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    background: #81C784;
+    font-family: 'Roboto', sans-serif;
+    color: #757575;
+}
+
+header {
+    text-align: center;
+    color: #DCEDC8;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+}
+main { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game_stats {
+    display: flex;
+    background: white;
+    padding: 1em;
+    border-radius: 6px;
+    color: #757575;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.game_stats span {
+    font-weight: 700;
+    /* color: #424242; */
+}
+
+.game_stats p {
+    margin: 0 20px;
+}
+
+.fas {
+    color: #81C784;
+}
+
+#game_balance {
+    color: #81C784;
+}
+
+.interaction_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2em;
+}
+
+.tools_wrap {
+    background: white;
+    padding: 2em;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.tools_wrap h2 {
+    margin: 0;
+}
+
+.tools_wrap ul {
+    padding: 0;
+}
+
+.tools_wrap li {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0px;
+    font-size: 1em;
+}
+
+.tools_wrap button {
+    background: #81C784;
+    color: white;
+    border: none;
+    margin-left: 1em;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+}
+
+.tools_wrap button:hover {
+    background: #1B5E20;
+}
+
+.tools_price {
+    color: #D84315;
+}
+
+#run_day {
+    cursor: pointer;
+    padding: 1em 2em;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 6px;
+    margin-left: 2em;
+    font-size: 1em;
+    color: #757575;
+}

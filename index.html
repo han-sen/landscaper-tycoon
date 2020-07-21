@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Landscaper Tycoon</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/8050e0389d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <h1>Landscaper Tycoon (Beta)</h1>
+            <p>Click 'Run Day' to mow lawns. Reach $1000 and aquire a team to win the game!</p>
+        </header>
+        <main class="game_wrap">
+            <section class="game_stats">
+                <p><i class="fas fa-sun"></i> Days Worked: <span id="game_day"></span></p>
+                <p><i class="fas fa-piggy-bank"></i> Current Balance: <span id="game_balance"></span></p>
+                <p><i class="fas fa-tools"></i> Current Tool: <span id="game_tool"></span></p>
+                <p><i class="fas fa-coins"></i> Current Rate: $<span id="game_rate"></span>/Day</p>
+            </section>
+            <section class="interaction_wrap">
+                <section class="tools_wrap">
+                    <h2><i class="fas fa-toolbox"></i> Tool Shop</h2>
+                    <ul>
+                        <li>Rusty Scissors <span class="tools_price">$5</span><button id="rusty_scissors">Buy</button></li>
+                        <li>Push Mower <span class="tools_price">$25</span><button id="push_mower">Buy</button></li>
+                        <li>Power Mower <span class="tools_price">$250</span><button id="power_mower">Buy</button></li>
+                        <li>Student Team <span class="tools_price">$500</span><button id="student_team">Buy</button></li>
+                    </ul>
+                </section>
+                <section class="controls_wrap">
+                    <button id="run_day"><i class="fas fa-play-circle"></i> Run Day</button>
+                </section>
+            </section>
+        </main>
+        <script src="app.js" async defer></script>
+    </body>
+</html>
